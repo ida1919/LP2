@@ -4,7 +4,7 @@ disease_db = {
         "extra": ["mild fever", "sore throat", "cough", "tiredness"]
     },
     "Flu": {
-        "must": ["high fever", "body pain"],
+        "must": ["high fever", "body pain","eye pain "],
         "extra": ["fatigue", "cough", "sore throat", "headache", "chills"]
     },
     "COVID-19": {
@@ -15,7 +15,7 @@ disease_db = {
     "Malaria": {
         "must": ["vomitting", "chills"],
         "extra": ["sweating", "headache", "vomiting", "body pain"]
-    },
+    }
 
 }
 
